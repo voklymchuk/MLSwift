@@ -16,6 +16,7 @@
 		3942653224F52A9D003C6CC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3942653124F52A9D003C6CC5 /* Assets.xcassets */; };
 		3942653524F52A9D003C6CC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3942653324F52A9D003C6CC5 /* LaunchScreen.storyboard */; };
 		395504C924F57EA6003D6A50 /* MLSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395504C824F57EA6003D6A50 /* MLSwift.swift */; };
+		395504CB24F58888003D6A50 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 395504CA24F58888003D6A50 /* .travis.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		3942653424F52A9D003C6CC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3942653624F52A9D003C6CC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		395504C824F57EA6003D6A50 /* MLSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLSwift.swift; sourceTree = "<group>"; };
+		395504CA24F58888003D6A50 /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .travis.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		394264CF24F52548003C6CC5 = {
 			isa = PBXGroup;
 			children = (
+				395504CA24F58888003D6A50 /* .travis.yml */,
 				394264DB24F52548003C6CC5 /* MLSwift */,
 				394264E624F52548003C6CC5 /* MLSwiftTests */,
 				3942652724F52A9C003C6CC5 /* MLSwiftExamples */,
@@ -236,6 +239,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				395504CB24F58888003D6A50 /* .travis.yml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
