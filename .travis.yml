@@ -1,6 +1,6 @@
 language: objective-c
 
-osx_image: xcode12u
+osx_image: xcode12
 env:
   matrix:
     - TEST_SDK=iphonesimulator14.0 OS=14.0 NAME='iPhone 11 Pro'
