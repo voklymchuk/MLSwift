@@ -10,6 +10,6 @@ script:
   - set -o pipefail && xcodebuild test -enableCodeCoverage YES -project MLSwift.xcodeproj -scheme MLSwift -sdk $TEST_SDK -destination "platform=iOS Simulator,OS=$OS,name=$NAME" ONLY_ACTIVE_ARCH=YES
 
 after_success:
-  - export CODECOV_TOKEN="357bef23-7c4f-4abd-9ea4-7d06196e6c2f"
   - slather
+  - export CODECOV_TOKEN="357bef23-7c4f-4abd-9ea4-7d06196e6c2f"
   - bash <(curl -s https://codecov.io/bash) -f reports/cobertura.xml -X coveragepy -X gcov -X xcode
