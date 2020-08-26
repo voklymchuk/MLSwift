@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		39006C7924F66BBE00A8A5D2 /* .slather.yml in Resources */ = {isa = PBXBuildFile; fileRef = 39006C7824F66BBE00A8A5D2 /* .slather.yml */; };
 		394264E324F52548003C6CC5 /* MLSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 394264D924F52548003C6CC5 /* MLSwift.framework */; };
 		394264E824F52548003C6CC5 /* MLSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394264E724F52548003C6CC5 /* MLSwiftTests.swift */; };
 		394264EA24F52548003C6CC5 /* MLSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 394264DC24F52548003C6CC5 /* MLSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -30,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		39006C7824F66BBE00A8A5D2 /* .slather.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .slather.yml; sourceTree = "<group>"; };
 		394264D924F52548003C6CC5 /* MLSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MLSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		394264DC24F52548003C6CC5 /* MLSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLSwift.h; sourceTree = "<group>"; };
 		394264DD24F52548003C6CC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 		394264CF24F52548003C6CC5 = {
 			isa = PBXGroup;
 			children = (
+				39006C7824F66BBE00A8A5D2 /* .slather.yml */,
 				395504CA24F58888003D6A50 /* .travis.yml */,
 				394264DB24F52548003C6CC5 /* MLSwift */,
 				394264E624F52548003C6CC5 /* MLSwiftTests */,
@@ -240,6 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				395504CB24F58888003D6A50 /* .travis.yml in Resources */,
+				39006C7924F66BBE00A8A5D2 /* .slather.yml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
