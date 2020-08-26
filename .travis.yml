@@ -7,11 +7,13 @@ env:
     - TEST_SDK=iphonesimulator14.0 OS=14.0 NAME='iPhone 11 Pro Max'
 
 script:
+  - ls
   - set -o pipefail && xcodebuild -enableCodeCoverage YES -project MLSwift.xcodeproj -scheme MLSwift -sdk $TEST_SDK -destination "platform=iOS Simulator,OS=$OS,name=$NAME" ONLY_ACTIVE_ARCH=YES build test
 
 before_install: rvm use $RVM_RUBY_VERSION
 install: bundle install --without=documentation --path ../travis_bundle_dir
 
 after_success:
+  - ls
   - slather
   - bash <(curl -s https://codecov.io/bash) -f reports/cobertura.xml -X coveragepy -X gcov -X xcode
