@@ -5,4 +5,5 @@ configuration: TestedConfiguration
 source_directory: MLSwift
 output_directory: reports
 ignore:
+  - MLSwiftExamples/*
   - MLSwiftTests/*
