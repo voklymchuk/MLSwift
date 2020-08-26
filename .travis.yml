@@ -12,5 +12,6 @@ script:
 
 after_success:
   - ls
+  - gem install slather
   - slather
   - bash <(curl -s https://codecov.io/bash) -f reports/cobertura.xml -X coveragepy -X gcov -X xcode
