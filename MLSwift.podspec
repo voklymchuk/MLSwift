@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "MLSwift"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of MLSwift. A CocoaPods library written in Swift"
+  spec.summary      = "A CocoaPods library written in Swift for integrating ML models into your apps"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -26,6 +26,11 @@ Pod::Spec.new do |spec|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
   This CocoaPods library helps you perform calculation.
+  This is a source code library for iOS and macOS with fast implementations of MobileNet V1 and V2, as well as SSDLite and DeepLabv3+. This library makes it very easy to add MobileNet-based neural networks into your apps, for tasks such as:
+image classification
+real-time object detection
+semantic image segmentation
+as a feature extractor that is part of a custom model
                    DESC
 
   spec.homepage     = "https://github.com/voklymchuk/MLSwift"
