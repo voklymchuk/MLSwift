@@ -16,7 +16,6 @@
 		3942653024F52A9C003C6CC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3942652E24F52A9C003C6CC5 /* Main.storyboard */; };
 		3942653224F52A9D003C6CC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3942653124F52A9D003C6CC5 /* Assets.xcassets */; };
 		3942653524F52A9D003C6CC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3942653324F52A9D003C6CC5 /* LaunchScreen.storyboard */; };
-		3948554C24F687AB000BBA34 /* circle.yml in Resources */ = {isa = PBXBuildFile; fileRef = 3948554B24F687AB000BBA34 /* circle.yml */; };
 		395504C924F57EA6003D6A50 /* MLSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395504C824F57EA6003D6A50 /* MLSwift.swift */; };
 		395504CB24F58888003D6A50 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 395504CA24F58888003D6A50 /* .travis.yml */; };
 /* End PBXBuildFile section */
@@ -46,7 +45,6 @@
 		3942653124F52A9D003C6CC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3942653424F52A9D003C6CC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3942653624F52A9D003C6CC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3948554B24F687AB000BBA34 /* circle.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = circle.yml; sourceTree = "<group>"; };
 		395504C824F57EA6003D6A50 /* MLSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLSwift.swift; sourceTree = "<group>"; };
 		395504CA24F58888003D6A50 /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .travis.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -80,7 +78,6 @@
 		394264CF24F52548003C6CC5 = {
 			isa = PBXGroup;
 			children = (
-				3948554B24F687AB000BBA34 /* circle.yml */,
 				39006C7824F66BBE00A8A5D2 /* .slather.yml */,
 				395504CA24F58888003D6A50 /* .travis.yml */,
 				394264DB24F52548003C6CC5 /* MLSwift */,
@@ -245,7 +242,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3948554C24F687AB000BBA34 /* circle.yml in Resources */,
 				395504CB24F58888003D6A50 /* .travis.yml in Resources */,
 				39006C7924F66BBE00A8A5D2 /* .slather.yml in Resources */,
 			);
