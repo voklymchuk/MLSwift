@@ -32,6 +32,7 @@
 		39006C7824F66BBE00A8A5D2 /* .slather.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .slather.yml; sourceTree = "<group>"; };
 		3936068424F7BBBB004066A5 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		3936068524F7BBC5004066A5 /* MLSwift.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MLSwift.podspec; sourceTree = "<group>"; };
+		3936068624F7ED5A004066A5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		394264D924F52548003C6CC5 /* MLSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MLSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		394264DC24F52548003C6CC5 /* MLSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLSwift.h; sourceTree = "<group>"; };
 		394264DD24F52548003C6CC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -80,6 +81,7 @@
 			children = (
 				39006C7824F66BBE00A8A5D2 /* .slather.yml */,
 				395504CA24F58888003D6A50 /* .travis.yml */,
+				3936068624F7ED5A004066A5 /* README.md */,
 				3936068524F7BBC5004066A5 /* MLSwift.podspec */,
 				3936068424F7BBBB004066A5 /* LICENSE */,
 				394264DB24F52548003C6CC5 /* MLSwift */,
