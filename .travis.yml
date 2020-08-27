@@ -9,7 +9,11 @@ env:
 script:
   - set -o pipefail && xcodebuild test -enableCodeCoverage YES -project MLSwift.xcodeproj -scheme MLSwift -sdk $TEST_SDK -destination "platform=iOS Simulator,OS=$OS,name=$NAME" ONLY_ACTIVE_ARCH=YES build test
 
+before_install: rvm use $RVM_RUBY_VERSION
+install:
+  - bundle config set path '../travis_bundle_dir'
+  - BUNDLE_GEMFILE="MLSwift/Gemfile.ios" bundle install --without=documentation
+
 after_success:
-  - gem install slather
   - slather
   - bash <(curl -s https://codecov.io/bash) -f reports/cobertura.xml -X coveragepy -X gcov -X xcode
